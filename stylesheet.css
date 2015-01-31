@@ -1,0 +1,122 @@
+#bannar{
+	position:relative;
+	text-align: center;
+	top:3em;
+}
+#bannar .beginning.big{
+	  font-size: 2em;
+	  color:#FF00FF;
+}
+#bannar .middle.big{
+	font-size:2em;
+	color:#00CCFF;
+}
+#bannar .end.big{
+	font-size:2em;
+	color:#B2F0FF;
+}
+#bannar .beginning.smaller{
+	  font-size: 1em;
+	  color:#FF00FF;
+}
+#bannar .middle.smaller{
+	font-size:1em;
+	color:#00CCFF;
+}
+#bannar .end.smaller{
+	font-size:1em;
+	color:#B2F0FF;
+}
+body{
+	background-image:url("Images/SpeakersFade.jpg");
+	 background-color: #484848;
+}
+header{
+	background-color: #484848;
+	height:8em;
+	position:relative;
+}
+img.mike{
+	height:5em;
+	width:5em;
+	position:absolute;
+	top:3em;
+}
+#gradient{
+	height:.5em;
+	width:80em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+	position:relative;
+	top:3em;
+}
+html{
+	max-width:80em;
+}
+img.medium{
+	height:10em;
+	width:7.5em;
+}
+img.small{
+	height:7.5em;
+	width:5em;
+	display:block;
+	margin:0em auto;
+}
+#p1{
+	height: 8em;
+	width:20em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+}
+#p2{
+	height: 8em;
+	width:20em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+}
+#p3{
+	height: 8em;
+	width:20em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+}
+#p4{
+	height: 8em;
+	width:20em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+}
+#p5{
+	height: 8em;
+	width:20em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+}
+#p6{
+	height: 8em;
+	width:20em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+}
+#p7{
+	height: 8em;
+	width:20em;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+}
+
+section p{
+	display:inline-block;
+}
+content{
+	text-align: center;
+}
+
+p#login{
+
+float:right;
+	text-align: center;
+	padding:1em;
+	background-color:#F8F8F8;
+	height:2em;
+	width:7em;
+	border-radius:3em;
+}
+#bottomNav ul li{
+	list-style-type:none;
+	display:inline;
+	color:#F8F8F8;
+}
