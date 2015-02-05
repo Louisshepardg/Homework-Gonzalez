@@ -28,7 +28,7 @@
 	color:#B2F0FF;
 }
 body{
-	background-image:url("Images/SpeakersFade.jpg");
+	background-image:url("1-images/SpeakersFade.jpg");
 	 background-color: #484848;
 }
 header{
@@ -119,4 +119,42 @@ float:right;
 	list-style-type:none;
 	display:inline;
 	color:#F8F8F8;
+}
+p.blog{
+	float:left;
+	background:-webkit-linear-gradient(left,#FF00FF,#B2F0FF);
+	margin:1em;
+	padding:1em;
+}
+p.blog#left{
+	padding:none;
+	background:none;
+}
+p.blog#center{
+	width:25em;
+	height:30em;
+}
+p.blog#side{
+	width:15em;
+	height:25em;
+}
+img.firework{
+	width:10em;
+	height:15em;
+	position:relative;
+	right:50em;
+	bottom:8em;
+}
+footer{
+	position:relative;
+	top:5em;
+	right:2.5em;
+	text-align:center;
+	color:#F8F8F8;
+}
+ul #navBar li{
+	list-style-type:none;
+}
+ul#navBar li{
+	display:inline;
 }
