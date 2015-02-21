@@ -237,7 +237,7 @@ img.:hover
 }
 */
 
-@media screen and (min-width: 0px) and (max-width: 675px){
+/*@media screen and (min-width: 0px) and (max-width: 675px){
 
     div#bannar p
      {
@@ -279,9 +279,9 @@ img.:hover
 	img.gradient-color
 	{
 		visibility: hidden;
-	}
+	}*/
 	/*sub*/
-#content2 img.usr2{
+/*#content2 img.usr2{
 visibility: hidden;
 }
 #content2 img.np
@@ -302,12 +302,6 @@ visibility: hidden;
 	margin:1em auto 1em auto;
 	opacity:.85;
 	overflow: hidden;
-
-	/*-webkit-transition: font-size 0.3s ease; 
-    -moz-transition: font-size 0.3s ease; 
-    -o-transition: font-size 0.3s ease; 
-    transition: font-size 0.3s ease;*/
-   
 }
 
 header p
@@ -340,7 +334,7 @@ header img.gradient-color{
 
 }
 
-/*media screen and (min-width: 1400px) {
+media screen and (min-width: 1400px) {
 
     h2 {
         color: pink ;
