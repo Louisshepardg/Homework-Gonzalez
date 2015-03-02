@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<!-- saved from url=(0101)file:///C:/Users/Louie/Desktop/MassArt/SMFA/IWD/assignment04/GETTING%20STARTED%20WITH%20BRACKETS.html -->
+
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,6 +17,23 @@ document.bgColor= "#CCCCCC" ;
 function print_link(){
     alert(window.location); 
 }
+
+
+function listFruit(){
+    var randomNum = Math.floor((Math.random()*7)+1);
+     var fruit_array = [
+        "apple",
+        "banana",
+        "berry",
+        "cherry",
+        "lime",
+        "lemon",
+        "mango"
+        ] ;
+        document.write (fruit_array[randomNum]) ;
+}
+
+listFruit () ;
 
 </script>
     </head>
@@ -191,7 +209,7 @@ replaceHeader("Quick Edit for CSS and JavaScript");
 
         document.write(fruit_array[1] + " ");
          document.write(fruit_array[ 2]);
-        </script>banana berry
+        </script>
         <p>
             For those of us who haven't yet memorized the color equivalents for HEX or RGB values, Brackets makes
             it quick and easy to see exactly what color is being used. In either CSS or HTML, simply hover over any
@@ -303,3 +321,4 @@ replaceHeader("Quick Edit for CSS and JavaScript");
 
 -->
 </body></html>
+ No newline at end of file
