@@ -3,12 +3,6 @@
 		<head>
 			<title>Survey</title>
 			<link rel="stylesheet" href="css/style_wth_sass.css">
-			<script type="text/javascript">
-   			var first_field = document.getElementById('one');
-   			document.write(first_field + "hello friend") ;
-
-
-			</script>
 		</head>
 		<body>
 			<header>
@@ -18,30 +12,39 @@
     			<p>Log In</p>
     			<img class="gradient-color" src="imgs/gradient-color-2.png"/>
 			</header>
-			<form action="file:///C:/Users/Louie/Documents/GitHub/Homework-Gonzalez/assignment05/Survey.html?nameField=&nameField=&emailAdress=&userName=&password=&passwordVerification=&favoriteColor=" name="myform">
+			<form  name="myform" method="post" action="http://www.example.org/register">
 				<fieldset>
 				<p class="form" id="one">First Name:<br/>
-				<input type="text" name="firstName" id="firstName" />
+				<input type="text" name="firstName" id="firtName" class ="txtField" />
 				</p>
 				<p class="form" id="two"> Last Name:<br/>
-				<input type="text" name="lastName" id="lastName" />
+				<input type="text" name="lastName" id="lastName" class ="txtField"/>
 				</p>
 				<p class="form" id="three"> Email:	<br/>			
-					<input type='email' name='emailAdress' id="emailAdress" />
+					<input type='email' name='emailAdress' id="emailAdress" class ="txtField"/>
 				</p>
 				<p class="form" id="four"> Username:<br/>
-				<input type='text' name='userName' id="userName" />
+				<input type='text' name='userName' id="userName" class ="txtField"/></p>
 				<p class="form" id="five">Password:<br/>
-				<input type='password' name='password' id="password" />
+				<input type='password' name='password' id="password" class ="txtField"/>
 				</p>
 				<!--<p>Password must be greater than 8 characters and includes 1 number</p>-->
 				<p class="form" id="six">Password Verification: <br/>
-				<input type='password' name='passwordVerification' id="passwordVerification"/>
+				<input type='password' name='passwordVerification' id="passwordVerification"class ="txtField"/>
 				</p>
 				<p class="form" id="seven">Favorite Color: <br/>
-				<input type='radio button' name='favoriteColor' id="favoriteColor" /><br/>
+				<input type='radio button' name='favoriteColor' id="favoriteColor"class ="txtField" /><br/>
 				</p>
-				<input type= "submit" id="submit"/>
+				<input type= "submit" id="submit"class ="txtField"/>
+				<div id ="float"><p>A first Name is required</p>
+					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+				</div>
 				</fieldset>
 			</form>
 		<div id="footer">
@@ -55,5 +58,15 @@
     	<img class="twtr" src= "imgs/twtr.png">
    		<p>© 2015 Fenster/Greenberg</p>
 		</div>
+		<script type="text/javascript">
+			function checkUsername()
+			var username = document.GetElementById('userName').textContent ;
+			if(username.length<5)
+
+			
+
+
+
+		</script>
 	</body>
 </html>
