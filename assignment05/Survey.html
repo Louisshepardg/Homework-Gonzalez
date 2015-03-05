@@ -12,7 +12,8 @@
     			<p>Log In</p>
     			<img class="gradient-color" src="imgs/gradient-color-2.png"/>
 			</header>
-			<form  name="myform" method="post" action="http://www.example.org/register">
+			
+			<form  action="/my-form-form-page" method="post">
 				<fieldset>
 				<p class="form" id="one">First Name:<br/>
 				<input type="text" name="firstName" id="firtName" class ="txtField" />
@@ -33,20 +34,38 @@
 				<input type='password' name='passwordVerification' id="passwordVerification"class ="txtField"/>
 				</p>
 				<p class="form" id="seven">Favorite Color: <br/>
-				<input type='radio button' name='favoriteColor' id="favoriteColor"class ="txtField" /><br/>
+				<input type='radio' name='favoriteColor' value="red" id="favoriteColor1"class ="txtField" />Red <input type='radio' name='favoriteColor' value="orange" id="favoriteColor2"class ="txtField" />Orange<input type='radio' name='favoriteColor' value="yellow" id="favoriteColor3"class ="txtField" />Yellow <br/>
 				</p>
 				<input type= "submit" id="submit"class ="txtField"/>
-				<div id ="float"><p>A first Name is required</p>
-					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
-					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
-					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
-					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
-					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
-					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
-					<p>A first Name is required</p><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png"><img class="mic" src="imgs/mic.png">
+				<input type="reset" id = "reset" value="Reset!">
+
+				<div id ="float"><p id ="one">A first name greater than 2 characters is required</p>
+					<img class="checkmark" src="imgs/checkmark.png"><img class="cancel" src="imgs/cancel.png"><img class="exclaimation" src="imgs/exclaimation.png">
+					<p id = "two">A last greater than 2 characters name is required</p>
+					<img class="checkmark" src="imgs/checkmark.png"><img class="cancel" src="imgs/cancel.png"><img class="exclaimation" src="imgs/exclaimation.png">
+					<p id ="three">Please enter a valid email</p>
+					<img class="checkmark" src="imgs/checkmark.png"><img class="cancel" src="imgs/cancel.png"><img class="exclaimation" src="imgs/exclaimation.png">
+					<p id = "four">Username must be greater than 7 characters </p>
+					<img class="checkmark" src="imgs/checkmark.png"><img class="cancel" src="imgs/cancel.png"><img class="exclaimation" src="imgs/exclaimation.png">
+					<p id = "five">Password must be greater than 8 characters and includes 1 number</p>
+					<img class="checkmark" src="imgs/checkmark.png"><img class="cancel" src="imgs/cancel.png"><img class="exclaimation" src="imgs/exclaimation.png">
+					<p id = "six">Passwords match</p>
+					<img class="checkmark" src="imgs/checkmark.png"><img class="cancel" src="imgs/cancel.png"><img class="exclaimation" src="imgs/exclaimation.png">
+					<p id = "six">Select a color</p>
+					<img class="checkmark" src="imgs/checkmark.png"><img class="cancel" src="imgs/cancel.png"><img class="exclaimation" src="imgs/exclaimation.png">
 				</div>
 				</fieldset>
 			</form>
+<!-- pop up warning for failed validation-->
+			<div class = 'warning' id="warning1">First Name input is not 'at least 2 characters'. Please enter at least 2 characters</div>
+			<!--<div class = 'warning' id="warning2"> Last Name input is not 'at least 2 characters'. Please enter at least 2 characters</div>
+			<div class = 'warning' id="warning3"> </div>
+			<div class = 'warning' id="warning4"> </div>
+			<div class = 'warning' id="warning5"> </div>
+			<div class = 'warning' id="warning6"> </div>
+			<div class = 'warning' id="warning7"> </div>
+			<div class = 'warning' id="warning8"> </div>
+			<div class = 'warning' id="warning9"> </div>-->
 		<div id="footer">
     	<ul>
         <li>Privacy Policy|</li>
@@ -59,9 +78,7 @@
    		<p>© 2015 Fenster/Greenberg</p>
 		</div>
 		<script type="text/javascript">
-			function checkUsername()
-			var username = document.GetElementById('userName').textContent ;
-			if(username.length<5)
+			
 
 			
 
