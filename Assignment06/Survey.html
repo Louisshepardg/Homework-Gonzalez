@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Survey</title>
+			<link rel="stylesheet" href="css/Style.css">
+		</head>
+		<body>
+			<header>
+			 	<img class="mic" src="imgs/mic.png">
+    			<p>Blog</p>
+    			<p>About</p>
+    			<p>Log In</p>
+    			<img class="gradient-color" src="imgs/gradient-color-2.png"/>
+			</header>
+			
+			<form  action="/my-form-form-page" method="post">
+				<fieldset>
+				<p class="form"> First Name:<br/>
+				<input type="text" id="firstName" class ="txtField" />
+				</p>
+				<p class="form"> Last Name:<br/>
+				<input type="text" id="lastName" class ="txtField"/>
+				</p>
+				<p class="form"> Email:	<br/>			
+					<input type='email' id="emailAddress" class ="txtField"/>
+				</p>
+				<p class="form"> Username:<br/>
+				<input type='text' id="userName" class ="txtField"/></p>
+
+				<p class="form">Password:<br/>
+				<input type='password' id="password" class ="txtField"/>
+				</p>
+				<!--<p>Password must be greater than 8 characters and includes 1 number</p>-->
+				<p class="form">Password Verification: <br/>
+				<input type='password' id="passwordVerification"class ="txtField"/>
+				</p>
+				<p class="form" id="sevenForm">Favorite Color: <br/>
+				<input type='radio'  value="red" id="favoriteColor1"class ="txtField" />Red <input type='radio'  value="orange" id="favoriteColor2"class ="txtField" />Orange<input type='radio'  value="yellow" id="favoriteColor3"class ="txtField" />Yellow <br/>
+				</p>
+				<input type= "submit" id="submit"class ="txtField"/>
+				<input type="reset" id = "reset" value="Reset!">
+				<div id = 'float'>
+					<div id ='one'>Please enter atleast 2 characters</div>
+					<div id ='two'>Please Show then hide me</div>
+					<div id ='three'></div>
+					<div id ='four'></div>
+					<div id = "fifth"></div>
+					<div id ='six'></div>
+					<div id ='seven'></div>
+				</div>
+				<div id ="images"><img id ="checkmark" class = 'symbol' src = "imgs/checkmark.png"> <img id ="cancel" class = 'symbol' src = "imgs/cancel.png"></div>
+				</fieldset>
+			</form>
+
+		<div id="footer">
+    	<ul>
+        <li>Privacy Policy|</li>
+        <li>Terms of Service|</li>
+        <li>Contest Rules|</li>
+        <li>Contact</li>
+   		</ul>
+    	<img class="fb" src="imgs/fb.jpg">
+    	<img class="twtr" src= "imgs/twtr.png">
+   		<p>© 2015 Fenster/Greenberg</p>
+		</div>
+		<!--
+		<script type="text/javascript">
+//1 show focus tip
+var elFirstName = document.getElementById('firstName');
+var elMsg = document.getElementById('one');
+function checkInput(minLength) {
+	if (elFirstName.value.length <minLength) {
+		elMsg.className = 'tip';
+		elMsg.textContent = 'Please enter at least ' + minLength + ' characters ';
+	}else {
+		el.Msg.innerHTML = '';
+	}
+}
+elFirstName.addEventListener('focus', function(){
+	checkInput(2);
+},false);
+
+		
+//2
+var elLastName = document.getElementById('lastName');
+var elMsg = document.getElementById('two');
+function checkInput2(minLength) {
+	if (elLastName.value.length <minLength) {
+		elMsg.className = 'tip';
+		elMsg.textContent = 'Please enter at least ' + minLength + ' characters ';
+	}else {
+		el.Msg.innerHTML = '';
+	}
+}
+elLastName.addEventListener('focus', function(){
+	checkInput2(2);
+},false);
+//3
+var elEmailAddress = document.getElementById('emailAddress');
+var elMsg = document.getElementById('three');
+function checkInput3(minLength) {
+	if (elEmailAddress.value.length <minLength) {
+		elMsg.className = 'tip';
+		elMsg.textContent = 'Please enter a valid email address ';
+	}else {
+		el.Msg.innerHTML = '';
+	}
+}
+elEmailAddress.addEventListener('focus', function(){
+	checkInput3(1);
+},false);
+
+		
+//4
+var elUserName = document.getElementById('userName');
+var elMsg = document.getElementById('four');
+function checkInput4(minLength) {
+	if (elUserName.value.length <minLength) {
+		elMsg.className = 'tip';
+		elMsg.textContent = 'Please enter at least ' + minLength + ' characters ';
+	}else {
+		el.Msg.innerHTML = '';
+	}
+}
+elUserName.addEventListener('focus', function(){
+	checkInput4(7);
+},false);
+//5
+var elPassword = document.getElementById('password');
+var elMsg = document.getElementById('fifth');
+function checkInput5(minLength) {
+	if (elPassword.value.length <minLength) {
+		elMsg.className = 'tip';
+		elMsg.textContent = 'Please enter at least ' + minLength + ' characters and one number';
+	}else {
+		el.Msg.innerHTML = '';
+	}
+}
+elPassword.addEventListener('focus', function(){
+	checkInput5(8);
+},false);
+
+//make a symbol show up for validation success or failure
+var elPassword = document.getElementById('password');
+var elImage = document.getElementsByClassName('symbol');
+function checkValidate(minLength) {
+	if (elPassword.value.length > minLength) {
+		elImage.setAttribute("class", "checkmarked");
+		
+	}else {
+		elImage.setAttribute('class', "canceled");
+	}
+}
+elPassword.addEventListener('blur', function(){
+	checkValidate(8);
+},false);
+
+//validate email
+function validateEmail(email) { 
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+} 
+		</script>
+		-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+
+	$('#one').on('click',function(){
+		$('#one').addClass('show');
+	});
+	
+
+</script>
+	</body>
+</html>
