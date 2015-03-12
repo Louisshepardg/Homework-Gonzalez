@@ -1,0 +1,38 @@
+
+header 
+{
+   color: white;
+   height: 10em;
+   background-color: black;
+   width: 100%;
+   /*padding: .5em; */
+} 
+
+header p 
+{
+  float: right;
+  display: inline;
+  padding: 1em;
+}
+
+
+header p:hover 
+{
+  border-radius: 3px;
+  background-color: #FF00FF;
+  padding: 1em; 
+}
+
+img.mic 
+{
+  /*margin-top: 1em;*/
+  height: 5em;
+  width: 5em; 
+  position:absolute;
+  top:3em;
+}
+  img.gradient-color
+  {
+  position:absolute;
+  top:10.2em;
+ }
