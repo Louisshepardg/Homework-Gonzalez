@@ -6,6 +6,16 @@
  * Copyright 2014 Ben Plum; MIT Licensed 
  */
 
+body{
+  background-image: url("imgs/speakersFade.jpg");
+}
+h1{
+  color:white;
+}
+body p{
+  color:teal;
+}
+
 
 .shifter-open {
   overflow: hidden;
