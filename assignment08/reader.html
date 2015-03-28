@@ -5,6 +5,8 @@
     <title>Ajax RSS Feed Reader | Assignment 8</title>
     <style>
         body { font-family: Helvetica; }
+        div#container {border:solid; border-width:3px; border-color:white;}
+        div#container {padding:1em;}
     </style>
 </head>
 <body>
@@ -23,6 +25,7 @@
     <p><label for="include_summaries">Include summaries?</label> <input type="checkbox" id="include_summaries" value="true" /> </p>
     <input type="submit" name="submit" id="submit" value="Show feed!" />
 </form>
+<div id='container'></div>
 <hr />
 
 <!--
@@ -51,13 +54,13 @@ Feed content will appear here visually on the page.
         var $source = $('#source').val() ;
         var subfolder = 'feeds/' ;
 
-//        console.log('source menue value: '+ $('#source').val());
+       // console.log('source menue value: '+ $('#source').val());
 
         var displayAmount = $(':radio:checked').val() ;
-//        console.log($(':radio:checked').val())
+       // console.log($(':radio:checked').val())
 
         var showSummary = $(':checkbox:checked').val () ;
-//        console.log('is checked: '+showSummary);
+       // console.log('is checked: '+showSummary);
 
         if($source != '') {
 
@@ -71,7 +74,6 @@ Feed content will appear here visually on the page.
 
                 // console.log ( data ) ;
                 // resume here
-                
 
             }) ;
 
