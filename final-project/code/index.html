@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <!-- Stylesheets -->
+    <link href="FileSpaceCombine.css" rel="stylesheet" type="text/css"/>
+
+    <!-- tabs/ accordian -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <!-- Google Font kit -->
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <title>List Organizer</title>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- Start header template-->
+
+<div id="header">
+
+
+    <div id="Icon">
+
+        <p id="Namen"> MOBILBLIO</p>
+
+            <img src="../Pictures/MobilblioIcon.png" alt="Mobilblio Icon" id="Plane">
+
+    </div>
+
+    <p id="Tag"> Our Goal Is To Improve Your Travel</p>
+
+    <button id="opener_zero">Log In</button>
+    <div id="dialog_zero" title="Dialog Title One">I'm a dialog</div>
+
+    <script>
+        $( "#dialog_zero" ).dialog({ autoOpen: false });
+        $( "#opener_zero" ).click(function() {
+            $( "#dialog_zero" ).dialog( "open" );
+        });
+    </script>
+
+    <button id="Sign"> <a href="QuestionOverview.html"> Sign Up </a> </button>
+
+    <script>
+        $( "button" ).button();
+    </script>
+
+    <div id="Subtitle">
+
+        <p>List Organizer</p>
+
+    </div>
+
+
+</div>
+<!-- End header template-->
+
+    <div id="content">
+
+<!-- top nav -->
+<div id="TopNav">
+
+    <button> <a href="QuestionOverview.html"> Question Overview </a> </button>
+
+    <script>
+        $( "button" ).button();
+    </script>
+
+    <button> <a href="QuestionEditor.html"> Question Editor </a></button>
+
+    <script>
+        $( "button" ).button();
+    </script>
+
+    <button> <a href="ListEditor.html"> List Editor </a> </button>
+
+    <script>
+        $( "button" ).button();
+    </script>
+
+    <button> <a href="CheckOut.html"> <img id="Cart" src="../Pictures/ShoppingCart.png"> </a></button>
+
+    <script>
+        $( "button" ).button();
+    </script>
+
+</div>
+<!-- end top nav -->
+
+
+<div id="Accordside" class="inline">
+
+
+
+<!--<div id="Newlist">-->
+
+    <!--<button> <a href="QuestionOverview.html"> Make A New List! </a></button>-->
+
+    <!--<script>-->
+        <!--$( "button" ).button();-->
+    <!--</script>-->
+
+
+<!--</div>-->
+
+<!--<p id="Hist"> History </p>-->
+
+
+<div id="accordion">
+    <h3>Section 1</h3>
+    <div>
+        <p>
+
+        <ul id="sortable">
+        <li id="Count">Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        </ul>
+
+        <script>$("#sortable").sortable();</script>
+
+        </p>
+    </div>
+    <h3>Section 2</h3>
+    <div>
+        <p>
+        <ul id="sortable_two">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+
+        <script>$("#sortable_two").sortable();</script>
+        </p>
+    </div>
+    <h3>Section 3</h3>
+    <div>
+        <p>
+        <ul id="sortable_three">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+
+        <script>$("#sortable_three").sortable();</script>
+        </p>
+
+
+    </div>
+</div>
+
+<script>
+    $( "#accordion" ).accordion();
+</script>
+
+<!--div end accordside-->
+</div>
+
+<!--Add photo of book here to the right of the accordion-->
+<div id="Viewer"class="inline">
+
+    <img id="Countpic" src="../Pictures/count_of_monte_cristo.JPG">
+
+</div>
+
+
+<div class="inline">
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<br class="clearboth">
+
+</div><!-- #content-->
+
+<!-- Start footer template -->
+<div id="footer">
+
+</div>
+<!-- End footer template -->
+
+</div><!--#wrapper -->
+
+</body>
+
+</html>
