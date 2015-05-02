@@ -1,92 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="753fedda-9ee3-4563-8722-2f715c856665" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\01-project_summary\CV.odt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\MockUps\Question_Category_Editor.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\MockUps\mockupsSlide.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\MockUps\question_overview-srb.psd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\MockUps\question_overview.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\Pictures\ListManagement.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\Pictures\Mother Earth.ase" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\Pictures\SignUp.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\Pictures\ViewButtons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\Pictures\payment_summary.PNG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\0801-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\0802-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\0803-demo.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\css\jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\fancybox_loading@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\fancybox_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\fancybox_sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_large_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\flowers_small_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\maple_tree_large.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\imagery\maple_tree_small.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\js\jquery.cycle2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\js\jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\08 jquery 3\txt\fancybox-instructions.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\CheckOut.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\FileSpaceCombine.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\StyleSpace.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\css\c12.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\css\jquery.nouislider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\dynamic-filter.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\filter-filter.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\filter-foreach.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\filter-search.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\filter-tags.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\camille.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\creative-folk.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\p9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\img\pointer.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\dynamic-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\filter-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\filter-foreach.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\filter-search.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\filter-tags copy.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\filter-tags.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\jquery.nouislider.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\js\sort-table.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Louie\Documents\GitHub\Homework-Gonzalez\final-project\code\c12Filtering_seaching_and_sorting\sort-table.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-project/MockUps/list_organizer.pdf" afterPath="$PROJECT_DIR$/final-project/MockUps/list_organizer.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-project/code/AboutUs.html" afterPath="$PROJECT_DIR$/final-project/code/AboutUs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-project/code/ListEditor.html" afterPath="$PROJECT_DIR$/final-project/code/ListEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-project/code/QuestionEditor.html" afterPath="$PROJECT_DIR$/final-project/code/QuestionEditor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-project/code/QuestionOverview.html" afterPath="$PROJECT_DIR$/final-project/code/QuestionOverview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-project/code/index.html" afterPath="$PROJECT_DIR$/final-project/code/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final-project/code/style.css" afterPath="$PROJECT_DIR$/final-project/code/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="753fedda-9ee3-4563-8722-2f715c856665" name="Default" comment="" />
     <ignored path="Homework-Gonzalez.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -113,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/final-project/code/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.027687296" vertical-offset="136" max-vertical-offset="1190">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.08306189" vertical-offset="68" max-vertical-offset="1190">
+              <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -194,20 +109,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Homework-Gonzalez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homework-Gonzalez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Homework-Gonzalez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="final-project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/final-project/code/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027687296" vertical-offset="136" max-vertical-offset="1190">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.08306189" vertical-offset="68" max-vertical-offset="1190">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
