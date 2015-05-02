@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>List Editor</title>
 
-    <link rel="stylesheet" href="FileSpaceCombine.css">
+    <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 
@@ -63,8 +63,17 @@
 
     </ul>
     <div id="fragment-1">
-        <p>First tab is active by default:</p>
-        <pre><code>$( "#tabs" ).tabs(); </code></pre>
+        <!--<p>First tab is active by default:</p>-->
+        <!--<pre><code>$( "#tabs" ).tabs(); </code></pre>-->
+
+
+        <script type="javascript">
+
+            // Access some stored data
+            document.write( "field = " + sessionStorage.getItem("field"));
+
+        </script>
+
     </div>
     <div id="fragment-2">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.

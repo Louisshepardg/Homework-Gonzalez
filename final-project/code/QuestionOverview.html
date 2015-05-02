@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
 
-    <link href="FileSpaceCombine.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
 
     <!-- tabs/ accordian -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -107,18 +107,134 @@
                 <li><a href="#fragment-5"><span>Five</span></a></li>
             </ul>
             <div id="fragment-1">
-                <p>First tab is active by default:</p>
-                <pre><code>$( "#tabs" ).tabs(); </code></pre>
+                <!--<p>First tab is active by default:</p>-->
+                <!--<pre><code>$( "#tabs" ).tabs(); </code></pre>-->
+
+                <h1>Style</h1>
+                <form id="Genre" name="Genre" method="post" action="">
+
+
+                    <!-- example one -->
+                    <p>Select one or more preferred style</p>
+
+                    <input type="checkbox" name="Style" value="Poem"> Poem<br>
+
+                    <input type="checkbox" name="Style" value="Novel"> Novel<br>
+
+                    <input type="checkbox" name="Style" value="Drama"> Drama<br>
+
+                    <input type="checkbox" name="Style" value="Short Story"> Short Story<br>
+
+                    <input type="checkbox" name="Style" value="Myth"> Myth<br>
+
+                    <input type="checkbox" name="Style" value="Graphic Novell"> Graphic Novel<br>
+
+
+                    <p>
+
+                        <!--<input type="button" id="clear" value="Clear" />-->
+                    </p>
+                </form>
+
+
             </div>
             <div id="fragment-2">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                <h1>Sub Genre</h1>
+
+                <form id="Subgenre" name="Subgenre" method="post" action="">
+
+                    <!---->
+                    <!--<p>-->
+                    <!--<label for="place">Where (country) shall it take place </label>-->
+                    <!--<input type="text" name="place" id="Place" />-->
+                    <!--</p>-->
+
+                    <!-- example one -->
+                    <p>Select one or more preferred genre</p>
+
+                    <input type="checkbox" name="Genre" value="Romance"> Romance<br>
+
+                    <input type="checkbox" name="Genre" value="Satire"> Satire<br>
+
+                    <input type="checkbox" name="Genre" value="Tragedy"> Tragedy<br>
+
+                    <input type="checkbox" name="Genre" value="Comedy"> Comedy<br>
+
+                    <input type="checkbox" name="Genre" value="Fiction"> Fiction<br>
+
+                    <input type="checkbox" name="Genre" value="Non Fiction"> Non Fiction<br>
+
+
+                    <p>
+
+                        <!--<input type="button" id="clear" value="Clear" />-->
+                    </p>
+                </form>
             </div>
             <div id="fragment-3">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                <h1>Country</h1>
+                <form id="Country" name="Country" method="post" action="">
+
+            <p>
+
+                <label for="place">Where (country) shall it take place </label><br/>
+                    <input type="text" name="place" id="Place" /><br/>
+                     <input type="text" name="place" id="Place2" /><br/>
+                     <input type="text" name="place" id="Place3" /><br/>
+                     <input type="text" name="place" id="Place4" /><br/>
+                     <input type="text" name="place" id="Place5" />
+            </p>
+
+
+                </form>
+
+
+                <script type="javascript">
+
+//                    if (Modernizr.sessionstorage) {
+//
+//                        var txtOne = document.getElementById('Place'),  // Get form elements
+//                                txtTwo = document.getElementById('Place2'),
+//                                txtThree = document.getElementById('Place3'),
+//                                txtFour = document.getElementById('Place4'),
+//                                txtFive = document.getElementById('Place5');
+//
+//                        txtOne.value = sessionStorage.getItem('Place'); // Elements populated
+//                        txtTwo.value = sessionStorage.getItem('Place2');     // by sessionStorage
+//                        txtThree.value = sessionStorage.getItem('Place3');
+//                        txtFour.value = sessionStorage.getItem('Place4');
+//                        txtFive.value = sessionStorage.getItem('Place5');
+//
+//                        txtOne.addEventListener('input', function () {     // Save data on keyup
+//                            sessionStorage.setItem('Place', txtOne.value);
+//                        }, false);
+//
+//                        txtTwo.addEventListener('input', function () {
+//                            sessionStorage.setItem('Place2', txtTwo.value);
+//                        }, false);
+//                        txtThree.addEventListener('input', function () {
+//                            sessionStorage.setItem('Place3', txtThree.value);
+//                        }, false);
+//
+//                        txtFour.addEventListener('input', function () {
+//                            sessionStorage.setItem('Place4', txtFour.value);
+//                        }, false);
+//                        txtFive.addEventListener('input', function () {
+//                            sessionStorage.setItem('Place5', txtFive.value);
+//                        }, false);
+//
+//
+//                    }
+
+                    console.log(txtOne.value);
+
+                </script>
+
+
             </div>
+
             <div id="fragment-4">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
@@ -134,6 +250,10 @@
         <script>
             $( "#tabs" ).tabs();
         </script> <!-- end of tabs -->
+
+        <a href="ListEditor.html">
+            <button>Submit</button>
+        </a>
 
     </div><!-- #content -->
 

@@ -16,10 +16,9 @@ time, mark, audio, video {
     border: 0;
     font-size: 100%;
     font: inherit;
-
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
@@ -43,25 +42,20 @@ table {
     border-spacing: 0;
 }
 
-body
-{
-    font-family: Lato;
-    /*height:100%;*/
-    height:700px;
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
 }
-
-/*#Wrapper*/
-/*{*/
-    /*min-height: 100%;*/
-    /*position:relative;*/
-/*}*/
-
-div#header
-{
-    /*padding:10px*/
-    height: 100px;
-    background-color: lightslategray;
-    /*postion:absolute;*/
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    background: lightslategray;
+    padding:10px;
+    height:100px;
 }
 
 div#header #Log
@@ -88,7 +82,7 @@ div#header #Icon p#Namen
 
 div#header p#Tag
 {
-   position:absolute;
+    position:absolute;
     margin-top:50px;
     margin-left:230px;
     color:whitesmoke;
@@ -106,7 +100,7 @@ div#header button#Sign
 
 div#header div#Subtitle
 {
-   margin-left:50%;
+    margin-left:50%;
 }
 
 div#TopNav
@@ -121,10 +115,10 @@ img#Cart
     width:10px;
 }
 
-/*#Content*/
-/*{*/
-    /*padding-bottom: 80px;*/
-/*}*/
+#content {
+    padding-bottom:80px; /* Height of the footer element */
+}
+
 
 div.inline
 {
@@ -138,8 +132,8 @@ br.clearboth{
 
 /*p#Hist*/
 /*{*/
-    /*margin-top:10px;*/
-    /*margin-left:140px;*/
+/*margin-top:10px;*/
+/*margin-left:140px;*/
 
 /*}*/
 
@@ -153,7 +147,7 @@ div#Viewer
     /*margin-left:1000px;*/
     border:solid;
     border-color: cadetblue;
-    /*visibility:hidden;*/
+    visibility:hidden;
 
 }
 
@@ -166,19 +160,19 @@ div#Viewer
 
 /*div.long*/
 /*{*/
-    /*display:block;*/
-    /*height:10px;*/
-    /*length:1000px;*/
-    /*background-color: red;*/
-    /*border:solid;*/
-    /*border-color: black;*/
+/*display:block;*/
+/*height:10px;*/
+/*length:1000px;*/
+/*background-color: red;*/
+/*border:solid;*/
+/*border-color: black;*/
 /*}*/
 
 
 
 /*div#Newlist {*/
-    /*margin-top:10px;*/
-    /*margin-left:350px*/
+/*margin-top:10px;*/
+/*margin-left:350px*/
 /*}*/
 
 #accordion
@@ -188,21 +182,21 @@ div#Viewer
     width:700px;
 }
 
-
-div#Footer
+#tabs
 {
-    /*width: 100%;*/
-    height: 80px;
-    background-color: lightslategray;
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*left: 0;*/
+    height:75%;
 }
 
-/*Aliceblue F0F8FF ---- Beige F5F5DC -------  Darkslategray  2F4F4F ---- Green 008000 ----- Steelblue 4682B4--- dark brown 330
- 000--- light yellow FFF FCC----
- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
- screen height	smallest screen width	in use
-worldwide (Jan 2014)
-768 px	1024 px (up to 1360 px)	37%*/
+#boxes
+{
+
+}
+
+#footer {
+    background:lightslategray;
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>assignment 6 response</title>
+    <style type="text/css">
+        body {
+            font-family: Helvetica ;
+            line-height: 1.5em ;
+        }
+
+        .red_background {
+            background: red ;
+        }
+
+        .green_background {
+            background: green ;
+            color: white ;
+        }
+        .user_error_message {
+            background: rgba( 240,0,0,0.5) ;
+        }
+        .error_field {
+            border: 3px solid red ;
+        }
+    </style>
+
+</head>
+<body>
+<h1>User registration form</h1>
+<form id="Genre" name="Genre" method="post" action="">
+
+  <!---->
+    <!--<p>-->
+        <!--<label for="place">Where (country) shall it take place </label>-->
+        <!--<input type="text" name="place" id="Place" />-->
+    <!--</p>-->
+
+        <!-- example one -->
+        <p>Select one or more preferred style</p>
+
+        <input type="checkbox" name="Style" value="Poem"> Poem<br>
+
+        <input type="checkbox" name="Style" value="Novel"> Novel<br>
+
+        <input type="checkbox" name="Style" value="Drama"> Drama<br>
+
+        <input type="checkbox" name="Style" value="Short Story"> Short Story<br>
+
+        <input type="checkbox" name="Style" value="Myth"> Myth<br>
+
+        <input type="checkbox" name="Style" value="Graphic Novell"> Graphic Novel<br>
+
+
+    <p>
+        <input type="submit" id="submit" value="Submit" />
+        <!--<input type="button" id="clear" value="Clear" />-->
+    </p>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+    // Global variables.
+    var DEBUG = true ;
+    var USER_ERROR_MESSAGE ;
+
+    jQuery('Genre').on( 'submit', function ( event ) {
+
+        // stop the form from submitting itself!
+//        event.preventDefault() ;
+
+        // start form validation of our fields
+
+        $first_name = jQuery('#name') ;
+
+        var first_name_minimum_length = 3 ;
+        checkLength ( $first_name, first_name_minimum_length ) ;
+
+        var surname_minimum_length = 5 ;
+        $surname = jQuery('#surname') ;
+        checkLength ( $surname, surname_minimum_length ) ;
+
+        checkIfPasswordsMatch( ) ;
+
+//        $email = jQuery('#email') ;
+//        checkLength ( $email, surname_minimum_length ) ;
+
+        jQuery('h1').after ( '<div id="errordiv" class="user_error_message">' + USER_ERROR_MESSAGE + '</div>') ;
+        // replace content inside the div
+
+    }) ;
+
+    // checkLength -- check the length of a string
+    function checkLength ( $jquery_field, minimum_length ) {
+
+        var length_of_string = $jquery_field.val().length ;
+        console.log('length_of_string: ' + length_of_string );
+
+        console.log('ID of jquery object: ' + $jquery_field.attr('id') );
+
+        var message ;
+
+        if ( length_of_string <= minimum_length ) {
+//        if ( ! ( length_of_string > 2 ) )   {
+            if ( DEBUG ) {
+                console.log('The string is too short!');
+            }
+
+
+
+//            var target_field = '#' + field ; // #name, #surname
+
+            $jquery_field.addClass( 'error_field' ) ;
+
+            USER_ERROR_MESSAGE += 'The ' + $jquery_field.attr('id') + ' field is too short! Please make it greater than ' + minimum_length + ' characters.<br />' ;
+
+        }
+        else {
+            if ( DEBUG ) {
+                console.log('The string is greater than ' + minimum_length + ' characters (' + length_of_string + ')!');
+            }
+            if ( $jquery_field.hasClass ( 'error_field' ) ) {
+                $jquery_field.removeClass( 'error_field' ) ;
+            }
+
+            return true ;
+
+        }
+
+
+//        console.log ( "length_of_string: " + length_of_string ) ;
+
+
+    }
+
+    function checkForNumbers ( ) {
+
+    }
+
+    function checkIfPasswordsMatch ( ) {
+
+            //
+        USER_ERROR_MESSAGE += 'The passwords do not match!<br />' ;
+
+    }
+
+
+</script>
+
+</body>
+</html>
