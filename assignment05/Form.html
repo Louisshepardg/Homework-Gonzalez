@@ -14,40 +14,60 @@
     <h1>User Registration Form</h1>
 </header>
 <body>
-<div class='container'>
-<form id="assignment6" name="assignment6" method="post" action="">
-    <p>
-        <label for="name">First name</label>
-        <input type="text" name="name" id="name"  />
-    </p>
-    <p>
-        <label for="surname">Surname</label>
-        <input type="text" name="surname" id="surname" />
-    </p>
-    <p>
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username" />
-    </p>
-    <p>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" />
-    </p>
-    <p>
-        <label for="verification">Verification</label>
-        <input type="password" name="verification" id="verification" />
-    </p>
-    <p>
-        <input type="submit" id="submit" value="Submit" />
+
+<!--<div id="content">-->
+<!--<div id="container1">-->
+<form name="assignment6"  id="assignment6Form" method="post" action="#">
+
+        <label for="Name">First name</label>
+        <input type="text" id="Name"/>
+    <div id="feedback1"></div>
+
+        <label for="Surname">Surname</label>
+        <input type="text" id="Surname"/>
+    <div id="feedback2"></div>
+
+
+        <!--<label for="txt_username">Username</label>-->
+        <!--<input type="text" name="username" id="txt_username" required>-->
+    <label for="username">Create a username: </label>
+    <input type="text" id="username" />
+    <div id="feedback"></div>
+
+
+        <!--<label for="txt_password">Password</label>-->
+        <!--<input type="password" name="password" id="txt_password" >-->
+
+
+        <!--<label for="txt_verification">Verification</label>-->
+        <!--<input type="password" name="verification" id="txt_verification" >-->
+    <div class="fieldWrapper">
+        <label for="pass1">Password:</label>
+        <input type="password" name="pass1" id="pass1">
+    </div>
+    <div class="fieldWrapper">
+        <label for="pass2">Confirm Password:</label>
+        <input type="password" name="pass2" id="pass2" onkeyup="checkPass(); return false;">
+        <span id="confirmMessage" class="confirmMessage"></span>
+    </div>
+
+
+        <input type="button" id="submit" value="Submit" onclick="processFormData" />
         <!--<input type="button" id="clear" value="Clear" />-->
-    </p>
+
 </form>
-</div>
-<ul id = "feedback">
-        <li id ="one" class = 'off'>First name must be greater than 2 charaters</li>
-        <li id='two' class = 'off'>Last name must be greater than 2 charaters</li>
-        <li id="three" class = 'off'>Username must be greater than 7 charaters</li>
-        <li id="four" class = 'off'>Password must be greater than 8 charaters</li>
-</ul>
+
+<!--</div>&lt;!&ndash;end div#container1&ndash;&gt;-->
+
+<!--<div id="container2" class="'hidden">-->
+
+    <!--<p>Error Message goes here</p>-->
+
+<!--</div>&lt;!&ndash;end div#container2&ndash;&gt;-->
+<!--</div>&lt;!&ndash;end div#cotent&ndash;&gt;-->
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="javascript.js"></script>
 </body>

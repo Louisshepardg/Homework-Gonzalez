@@ -1,31 +1,16 @@
-header p 
+body {
+    font-family: Helvetica ;
+    line-height: 1.5em ;
+    background-image: url("imgs/speakersFade.jpg");
+}
+
+header p
 {
   float: right;
   display: inline;
   padding: 1em;
   color:white;
 }
-body {
-            font-family: Helvetica ;
-            line-height: 1.5em ;
-            background-image: url("imgs/speakersFade.jpg");
-        }
-
-        .red_background {
-            background: red ;
-        }
-
-        .green_background {
-            background: green ;
-            color: white ;
-        }
-        .user_error_message {
-            background: rgba( 240,0,0,0.5) ;
-        }
-        .error_field {
-            border: 3px solid red ;
-        }
-        
 
 header p:hover 
 {
@@ -53,113 +38,65 @@ top:3em;
  }
   form
  {
-  margin-top:10em;
+    margin-top:130px;
  }
 
- form p
- {
-  color: #bbeeff;
+ label{
+     color:white;
+     display:block;
+ }
+ #submit{
+     margin-top:10px;
+     display:block;
  }
 
-input.pass
- {
-  border:solid;
-  border-width:4px;
-  border-color:green;
- }
- input.fail
- {
-  border:solid;
-  border-width:4px;
-  border-color:red;
- }
  input:hover{
   border:solid;
   border-color:#bbeeff;
   border-width:4px;
  }
- input.focus
- {border-bottom:solid;
-  border-width:4px;
-  border-color:orange;
-}
-ul#feedback{
-  background-color:red;
-  color:white;
-  width:75%;
-  visibility:hidden;
- 
-}
- ul#feedback li#one.off{
-  background-color:red;
-  color:white;
-  width:25%;
-  visibility:none;
-   padding:.5em;
-   text-align: center;
- }
+/*#container1{*/
+    /*border:1px solid red;*/
+    /*margin-top:100px;*/
+    /*margin-right:10px;*/
+    /*height:300px;*/
+    /*float:left;*/
+/*}*/
 
-ul#feedback li#two.off
-{
-  background-color:red;
-  color:white;
-   width:25%;
-  visibility:none;
-   padding:.5em;
-   text-align: center;
-}
-ul#feedback li#three.off
-{
-  background-color:red;
-  color:white;
-   width:25%;
-  visibility:none;
-   padding:.5em;
-   text-align: center;
-}
-ul#feedback li#four.off
-{
-  background-color:red;
-  color:white;
-   width:25%;
-  visibility:none;
-   padding:.5em;
-   text-align: center;
-}
- ul#feedback li#one.on{
-  background-color:red;
-  color:white;
-  width:25%;
-  visibility:visible;
-   padding:.5em;
-   text-align: center;
- }
+/*#container2.hidden{*/
+    /*width:200px;*/
+    /*height:100px;*/
+    /*border:1px solid red;*/
+    /*margin-top:175px;*/
+    /*margin-right:50px;*/
+    /*float:left;*/
+    /*color:red;*/
+    /*visibility: hidden;*/
+/*}*/
+/*#container2.show{*/
+    /*width:200px;*/
+    /*height:100px;*/
+    /*border:1px solid red;*/
+    /*margin-top:175px;*/
+    /*margin-right:50px;*/
+    /*float:left;*/
+    /*color:red;*/
 
-ul#feedback li#two.on
-{
-  background-color:red;
-  color:white;
-   width:25%;
-  visibility:visible;
-   padding:.5em;
-   text-align: center;
+/*}*/
+
+#feedback{
+    /*width:200px;*/
+    /*height:100px;*/
+    /*border:1px solid red;*/
+    /*margin-top:175px;*/
+    /*margin-right:50px;*/
+    /*float:left;*/
+    color:red;
 }
-ul#feedback li#three.on
-{
-  background-color:red;
-  color:white;
-   width:25%;
-  visibility:visible;
-   padding:.5em;
-   text-align: center;
-}
-ul#feedback li#four.on
-{
-  background-color:red;
-  color:white;
-   width:25%;
-  visibility:visible;
-   padding:.5em;
-   text-align: center;
+#feedback1 {
+    color: red;
 }
 
+#feedback2 {
+    color: red;
+}
